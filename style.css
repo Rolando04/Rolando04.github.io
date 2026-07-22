@@ -41,18 +41,20 @@
 
 /* Navbar container styling */
 .navbar {
-  display: flex;
-  justify-content: space-between; /* Pushes logo left and links right */
-  align-items: center;            /* Vertically centers items */
-  background-color: #f4f8fc;         /* Dark gray background */
-  padding: 15px 30px;
-  font-family: Arial, sans-serif;
-  border-bottom: 1px solid black;
+    position:sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between; /* Pushes logo left and links right */
+    align-items: center;            /* Vertically centers items */
+    background-color: #f4f8fc;         /* Dark gray background */
+    padding: 0px 30px;
+    font-family: Arial, sans-serif;
+    border-bottom: 1px solid black;
 }
 
 #logo-img {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     margin: 5px 10px 5px 0; /* Adjusts spacing around the logo */
     border-radius: 50%; /* Makes the logo circular */
 }
@@ -221,6 +223,7 @@
     border-radius: 30px;
     padding:20px;
     border: #1d4ed8 2px solid;
+    transition:.5s;
 }
 
 .project-card img{
