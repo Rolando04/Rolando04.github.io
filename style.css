@@ -248,7 +248,7 @@
 
 #contact{
 
-    padding:100px 10%;
+    padding:25px 10%;
 
     background:#f8fafc;
 
@@ -309,5 +309,6 @@ footer{
 
     font-size:.9rem;
     margin-bottom: 0;
+    padding-bottom: 20px;
 
 }
